@@ -1,0 +1,468 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: '__Poppins_656bc6', sans-serif;
+
+}
+
+body{
+    @apply min-w-[15rem] pb-20
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8a8a8;
+}
+
+.bg-img-subscribe {
+    background-image: url('https://www.lifepharmacy.com/images/home/subscribe-2.jpg');
+}
+
+.underline-tra {
+    position: relative;
+}
+
+.underline-tra::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #39f;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+}
+
+.underline-tra:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.group:hover .group-hover\:scale-100 {
+    transform: scale(1)
+}
+
+.group:hover .group-hover\:-rotate-180 {
+    transform: rotate(180deg)
+}
+
+.scale-0 {
+    transform: scale(0)
+}
+
+.min-w-32 {
+    min-width: 8rem
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.width-set {
+    width: 100%;
+    transition: ease-in width 1s;
+}
+
+
+.search-suggestion-height {
+    max-height: calc(90vh - 120px);
+}
+
+
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.h-1px {
+    height: 1px;
+}
+
+
+.z-100 {
+    z-index: 100 !important;
+}
+
+#emailInput {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.antialiased {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.PhoneInputCountryIcon {
+    margin-right: 0.5rem;
+}
+
+/* checkmark animation */
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+
+.checkmark {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: none
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142
+    }
+}
+
+/* checkmark animation */
+
+.bg-sub-img {
+    background-image: url('https://www.lifepharmacy.com/images/home/subscribe-bg.jpg');
+}
+
+#phoneInputOTPAddress {
+    padding: 0.4rem;
+    font-size: medium;
+}
+
+
+.swiper-pagination-bullet-active {
+    @apply  !bg-gray-400 
+}
+
+
+.sugg-pro {
+    @apply p-2 rounded-lg flex hover:bg-gray-100 w-full h-16
+}
+
+.swiper-button-prev {
+    @apply !text-gray-300
+}
+
+.swiper-button-next {
+    @apply !text-gray-300
+}
+
+.loading-style {
+    @apply mb-2 mr-2 w-24 rounded-xl bg-gray-300 py-[12px] px-3
+}
+
+.loading-img {
+    @apply flex h-11 w-11 items-center justify-center rounded bg-gray-300
+}
+
+@use postcss-preset-env;
+@use postcss-nested-ancestors;
+@use postcss-nested;
+
+.skeleton-box {
+
+    overflow: hidden;
+    background-color: #F4F4F4;
+
+
+}
+
+.skeleton-box::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0,
+      rgba(255, 255, 255, 0.2) 20%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0)
+    );
+    animation: shimmer 3s infinite;
+    content: '';
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.leading-5 {
+    @apply space-y-2
+}
+
+.border-muted{
+    @apply  border-[#eee]
+}
+
+/* p{
+    @apply text-[#777] leading-[1.6rem]
+} */
+
+.text-dark{
+    @apply text-[#333] 
+}
+.text-life{
+    @apply text-[#002579]
+}
+
+.bg-primary{
+    @apply bg-[#39f]
+}
+
+.text-primary{
+    @apply text-[#39f]
+}
+
+.btn-primary{
+    @apply border-[#39f] border hover:bg-[#39f] bg-white transition-colors duration-200 ease-in text-[#39f] hover:text-white 
+}
+
+strong{
+    @apply  my-2 font-[500] leading-8
+}
+li{
+    @apply leading-6
+}
+.text-life-2{
+    @apply text-[#a92579]
+}
+
+.bg-gray{
+    @apply bg-[#f4f5f8]
+}
+
+.bg-life{
+    @apply bg-[#002579]
+}
+.bg-life-2{
+    @apply bg-[#a92579]
+}
+
+.offers-btn{
+    @apply bg-[#ffde53] border border-[#ff9d00] rounded-sm w-fit text-[10px] px-2 py-[2px] text-life font-semibold
+}
+
+
+.label-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    min-width: 0;
+    border-radius: 50%;
+    line-height: 1;
+    font-weight: 400;
+
+}
+
+/* h4{
+    @apply lg:text-lg md:text-base text-sm pb-4
+} */
+
+.ol-footer ul{
+@apply list-[circle]
+}
+.ol-footer ul li{
+    @apply py-2
+    }
+section{
+    @apply py-4
+}
+
+.banner-overlay>a {
+    position: relative
+}
+.banner-overlay>a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: hsla(0,0%,100%,.3);
+
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease
+}
+
+.banner-overlay:focus>a:after,.banner-overlay:hover>a:after {
+    visibility: visible;
+    opacity: 1
+}
+
+.bg-light{
+    @apply bg-[#f4f7ff]
+}
+.bg-light:hover{
+    @apply bg-[#dae0e5]
+}
+
+.swiper-pagination-bullets{
+    bottom: -5px !important;
+}
+
+.ribbon-2 {
+    --f: 10px; /* control the folded part*/
+    --r: 15px; /* control the ribbon shape */
+    --t: 5px; /* the top offset */
+    
+    position: absolute;
+    inset: var(--t) calc(-1*var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: 
+      polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+    background: #BD1550;
+    box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: 10px;
+}
+
+
+.line-clamp-2{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+}
+
+
+.line-clamp-1{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.container-page {
+    @apply max-w-[1450px] sm:px-[10px] px-[10px] mx-auto 
+}
+
+.container-page-items{
+    @apply max-w-[1450px] md:px-[10px] px-[0px] mx-auto 
+}
+
+.navbar-container{
+    @apply sticky top-0 z-50  mx-auto
+}
+
+.sm-view-only{
+    @apply sm:block hidden
+}
+
+.lg-view-only{
+    @apply sm:hidden block
+}
+
+.xl-view-only{
+    @apply xl:block hidden
+}
+
+.table-data{
+    @apply pr-6 pb-1
+}
+[data-rsbs-overlay]{
+    @apply !z-[100]
+}
+@keyframes bounce-horizontal {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px); /* Adjust the value as needed */
+    }
+  }
+  .bounce-horizontal {
+    animation: bounce-horizontal 1.5s infinite;
+  }
+
+  .mySwiper {
+    height: 110%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .swiper-slide-thumb-active img{
+    @apply !brightness-100 border border-blue-500
+  }
+  .thumb-gallery-img img {
+    @apply brightness-90 
+  }
+
+  @keyframes slideLeftToRightCart {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .swiper-container-horizontal > .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+}
+.swiper {
+    padding-bottom: 20px !important;
+  }

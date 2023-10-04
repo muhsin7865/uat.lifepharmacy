@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "account": "الحساب",
+    "wishlist": "قائمة الرغبات",
+    "cart": "العربة",
+    "highest_rated_phar": "تطبيق الرعاية الصحية الأعلى تقييماً في الإمارات",
+    "download_now": "تحميل الآن",
+    "deliver_to": "تسليم إلى",
+    "shop_by_cat": "تسوق حسب الفئة",
+    "brands": "العلامات التجارية",
+    "offers": "العروض",
+    "health_packages": "باكيج الصحة",
+    "view_all": "عرض الكل",
+    "searchbox_text": "البحث عن المنتجات..."
+  },
+  "products": {
+    "add": "أضف",
+    "add_to_cart": "أضف إلى العربة",
+    "free_delivery": "توصيل مجاني",
+    "free_delivery_desc": "لجميع الطلبات التي تزيد عن 29 درهم إماراتيا",
+    "easy_return": "استرجاع سهل",
+    "easy_return_desc": "استرجاع واسترداد أموال بطريقة سهلة",
+    "secure_payments": "دفع آمن",
+    "24/7": "دعم 24/7",
+    "24/7_desc": "دعم مخصص",
+    "overview": "نظرة عامة",
+    "details": "تفاصيل",
+    "more_info": "المزيد من المعلومات",
+    "sku": "رقم المنتج",
+    "p_rating": "تصنيف المنتج"
+  },
+  "footer": {
+    "top_part": {
+      "n26": "+٢٦",
+      "years_of_trust": "سنة من الثقة",
+      "n25M": "+٢٥",
+      "orders_delivered": "طلبات تم تسليمها",
+      "n375": "+٣٧٥",
+      "stores": "متجر",
+      "subscribe_desc": "اشترك للحصول على أحدث الخصومات",
+      "enter_email": "أدخل عنوان بريدك الإلكتروني",
+      "subscribe": "الاشتراك",
+      "download_app": "تحميل التطبيق"
+    },
+    "bottom_part": {
+      "life_address": "<p>صيدلية لايف-المكتب الرئيسي</br>ماراسي درايف-الخليج التجاري</br> باي سكوير-دبي<p>",
+      "question": "هل لديك سؤال؟ اتصل بنا 24/7",
+      "know_us": {
+        "title": "تعرف على لايف",
+        "about_life_store": "حول متجر لايف",
+        "contact_us": "اتصل بنا",
+        "our_blog": "مدونتنا",
+        "store_locator": "فروعنا"
+      },
+      "our_policies": {
+        "title": "سياساتنا",
+        "refund_policy": "سياسة رد الأموال",
+        "ship_terms": "شروط الشحن",
+        "pandp": "سياسة الخصوصية",
+        "tandc": "الشروط والأحكام"
+      },
+      "shop_by_cat": {
+        "title": "تسوق حسب الفئة"
+      },
+      "useful_links": {
+        "title": "روابط مفيدة",
+        "browse_by_brands": "تصفح حسب الماركة",
+        "site_map": "خريطة الموقع",
+        "offers_coupons": "العروض / القسائم",
+        "appointments": "المواعيد"
+      },
+      "my_account": {
+        "title": "حسابي",
+        "loginorsignup": "تسجيل الدخول أو",
+        "view_cart": "الاشتراك",
+        "my_wish_list": "مشاهدة العربة"
+      }
+    }
+  }
+}

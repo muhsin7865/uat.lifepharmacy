@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "account": "Account",
+        "wishlist": "Wishlist",
+        "cart": "Cart",
+        "highest_rated_phar": "Highest Rated Pharmacy App in UAE",
+        "download_now": "Download Now",
+        "deliver_to": "DELIVER TO",
+        "shop_by_cat": "Shop By Category",
+        "brands": "Brands",
+        "offers": "Offers",
+        "health_packages": "Health Packages",
+        "view_all": "View All",
+        "searchbox_text": "Search for products"
+    },
+    "products": {
+        "add": "Add",
+        "add_to_cart": "Add to Cart",
+        "free_delivery": "Free Delivery",
+        "free_delivery_desc": "For all orders over AED 29",
+        "easy_return": "Easy Return",
+        "easy_return_desc": "Easy return and refund",
+        "secure_payments": "Secure Payments",
+        "24/7": "24/7 Support",
+        "24/7_desc": "Dedicated Support",
+        "overview": "Overview",
+        "details": "Details",
+        "more_info": "More Info",
+        "sku": "SKU",
+        "p_rating": "Product Rating"
+    },
+    "footer": {
+        "top_part": {
+            "n26": "26+",
+            "years_of_trust": "Years of Trust",
+            "n25M": "25M+",
+            "orders_delivered": "Orders Delivered",
+            "n375": "375+",
+            "stores": "Stores",
+            "subscribe_desc": "Subscribe For The Latest Discount & Trends",
+            "enter_email": "Enter Your Email Address",
+            "subscribe": "Subscribe",
+            "download_app": "Download App"
+        },
+        "bottom_part": {
+            "life_address": "<p>Life Pharmacy - Corporate Office</br> Marasi Dr - Business Bay </br> Bay Square - Dubai<p>",
+            "question": "Got Question? Call us 24/7",
+            "know_us": {
+                "title": "Know Us",
+                "about_life_store": "About Lifestore",
+                "contact_us": "Contact Us",
+                "our_blog": "Our Blog",
+                "store_locator": "Store Locator"
+            },
+            "our_policies": {
+                "title": "Our Policies",
+                "refund_policy": "Refund Policy",
+                "ship_terms": "Shipping Terms",
+                "pandp": "Privacy Policy",
+                "tandc": "Terms & Conditions"
+            },
+            "shop_by_cat": {
+                "title": "Shop by Category"
+            },
+            "useful_links": {
+                "title": "Useful Links",
+                "browse_by_brands": "Browse by Brand",
+                "site_map": "Sitemap",
+                "offers_coupons": "Offers / Coupons",
+                "appointments": "Appointments"
+            },
+            "my_account": {
+                "title": "My Account",
+                "loginorsignup": "Dashboard",
+                "view_cart": "View Cart",
+                "my_wish_list": "My Wishlist"
+            }
+        }
+    }
+}
