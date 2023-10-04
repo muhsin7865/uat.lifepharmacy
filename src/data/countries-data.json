@@ -1,0 +1,403 @@
+[
+    {
+        "name": "Afghanistan",
+        "alpha2Code": "AF",
+        "callingCodes": [
+            "93"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Armenia",
+        "alpha2Code": "AM",
+        "callingCodes": [
+            "374"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Azerbaijan",
+        "alpha2Code": "AZ",
+        "callingCodes": [
+            "994"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Bahrain",
+        "alpha2Code": "BH",
+        "callingCodes": [
+            "973"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Bangladesh",
+        "alpha2Code": "BD",
+        "callingCodes": [
+            "880"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Bhutan",
+        "alpha2Code": "BT",
+        "callingCodes": [
+            "975"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Brunei Darussalam",
+        "alpha2Code": "BN",
+        "callingCodes": [
+            "673"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Cambodia",
+        "alpha2Code": "KH",
+        "callingCodes": [
+            "855"
+        ],
+        "independent": false
+    },
+    {
+        "name": "China",
+        "alpha2Code": "CN",
+        "callingCodes": [
+            "86"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Georgia",
+        "alpha2Code": "GE",
+        "callingCodes": [
+            "995"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Hong Kong",
+        "alpha2Code": "HK",
+        "callingCodes": [
+            "852"
+        ],
+        "independent": false
+    },
+    {
+        "name": "India",
+        "alpha2Code": "IN",
+        "callingCodes": [
+            "91"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Indonesia",
+        "alpha2Code": "ID",
+        "callingCodes": [
+            "62"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Iran (Islamic Republic of)",
+        "alpha2Code": "IR",
+        "callingCodes": [
+            "98"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Iraq",
+        "alpha2Code": "IQ",
+        "callingCodes": [
+            "964"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Israel",
+        "alpha2Code": "IL",
+        "callingCodes": [
+            "972"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Japan",
+        "alpha2Code": "JP",
+        "callingCodes": [
+            "81"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Jordan",
+        "alpha2Code": "JO",
+        "callingCodes": [
+            "962"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Kazakhstan",
+        "alpha2Code": "KZ",
+        "callingCodes": [
+            "76",
+            "77"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Kuwait",
+        "alpha2Code": "KW",
+        "callingCodes": [
+            "965"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Kyrgyzstan",
+        "alpha2Code": "KG",
+        "callingCodes": [
+            "996"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Lao People's Democratic Republic",
+        "alpha2Code": "LA",
+        "callingCodes": [
+            "856"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Lebanon",
+        "alpha2Code": "LB",
+        "callingCodes": [
+            "961"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Macao",
+        "alpha2Code": "MO",
+        "callingCodes": [
+            "853"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Malaysia",
+        "alpha2Code": "MY",
+        "callingCodes": [
+            "60"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Maldives",
+        "alpha2Code": "MV",
+        "callingCodes": [
+            "960"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Mongolia",
+        "alpha2Code": "MN",
+        "callingCodes": [
+            "976"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Myanmar",
+        "alpha2Code": "MM",
+        "callingCodes": [
+            "95"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Nepal",
+        "alpha2Code": "NP",
+        "callingCodes": [
+            "977"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Korea (Democratic People's Republic of)",
+        "alpha2Code": "KP",
+        "callingCodes": [
+            "850"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Oman",
+        "alpha2Code": "OM",
+        "callingCodes": [
+            "968"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Pakistan",
+        "alpha2Code": "PK",
+        "callingCodes": [
+            "92"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Palestine, State of",
+        "alpha2Code": "PS",
+        "callingCodes": [
+            "970"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Philippines",
+        "alpha2Code": "PH",
+        "callingCodes": [
+            "63"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Qatar",
+        "alpha2Code": "QA",
+        "callingCodes": [
+            "974"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Saudi Arabia",
+        "alpha2Code": "SA",
+        "callingCodes": [
+            "966"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Singapore",
+        "alpha2Code": "SG",
+        "callingCodes": [
+            "65"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Korea (Republic of)",
+        "alpha2Code": "KR",
+        "callingCodes": [
+            "82"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Sri Lanka",
+        "alpha2Code": "LK",
+        "callingCodes": [
+            "94"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "alpha2Code": "SY",
+        "callingCodes": [
+            "963"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Taiwan",
+        "alpha2Code": "TW",
+        "callingCodes": [
+            "886"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Tajikistan",
+        "alpha2Code": "TJ",
+        "callingCodes": [
+            "992"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Thailand",
+        "alpha2Code": "TH",
+        "callingCodes": [
+            "66"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Timor-Leste",
+        "alpha2Code": "TL",
+        "callingCodes": [
+            "670"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Turkey",
+        "alpha2Code": "TR",
+        "callingCodes": [
+            "90"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Turkmenistan",
+        "alpha2Code": "TM",
+        "callingCodes": [
+            "993"
+        ],
+        "independent": false
+    },
+    {
+        "name": "United Arab Emirates",
+        "alpha2Code": "AE",
+        "callingCodes": [
+            "971"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Uzbekistan",
+        "alpha2Code": "UZ",
+        "callingCodes": [
+            "998"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Vietnam",
+        "alpha2Code": "VN",
+        "callingCodes": [
+            "84"
+        ],
+        "independent": false
+    },
+    {
+        "name": "Yemen",
+        "alpha2Code": "YE",
+        "callingCodes": [
+            "967"
+        ],
+        "independent": false
+    }
+]
